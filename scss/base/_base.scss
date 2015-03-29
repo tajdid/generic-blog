@@ -1,0 +1,69 @@
+// IMPORTS
+@import
+  'variables';
+
+// BASE STYLES
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: $body-colour;
+  background: $body-background;
+  font-family: $serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 700;
+  color: $hyperlink;
+  text-decoration: none;
+
+  &:hover {
+    color: $hyperlink-hover;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: em(16);
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: em(14);
+}
+
+@include media($tablet) {
+  h1 {
+    font-size: em(22);
+  }
+
+  p {
+    font-size: em(18);
+  }
+}
+
+::selection {
+  color: $selection-colour;
+  background: $selection-background;
+}
+
+::-moz-selection {
+  color: $selection-colour;
+  background: $selection-background;
+ }
+
+.container {
+  @include outer-container($local-max-width: 800px);
+  overflow: hidden;
+  padding: 0 1em;
+}

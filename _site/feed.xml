@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tajdid Rahman</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 29 Mar 2015 13:03:12 +0100</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 13:03:12 +0100</lastBuildDate>
+    <generator>Jekyll v2.1.1</generator>
+    
+      <item>
+        <title>Privacy and Design</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, aliquam inventore dolorem eligendi velit, sed corporis, voluptatem molestiae debitis eius ea cum asperiores officia animi maxime. Labore, nisi porro! Facere?&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique qui aperiam doloribus esse aliquid, fuga, repellendus ex consequatur error, aliquam provident commodi quas praesentium id quos nobis, sint dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sapiente nostrum officia. Quis, voluptates! Molestias incidunt debitis possimus laudantium, et quasi, ab enim, voluptas reprehenderit hic ea saepe quo velit.&lt;/p&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 13:15:56 +0100</pubDate>
+        <link>http://yourdomain.com/general/design/2015/03/29/privacy-and-design/</link>
+        <guid isPermaLink="true">http://yourdomain.com/general/design/2015/03/29/privacy-and-design/</guid>
+        
+        
+        <category>general</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, aliquam inventore dolorem eligendi velit, sed corporis, voluptatem molestiae debitis eius ea cum asperiores officia animi maxime. Labore, nisi porro! Facere?&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique qui aperiam doloribus esse aliquid, fuga, repellendus ex consequatur error, aliquam provident commodi quas praesentium id quos nobis, sint dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sapiente nostrum officia. Quis, voluptates! Molestias incidunt debitis possimus laudantium, et quasi, ab enim, voluptas reprehenderit hic ea saepe quo velit.&lt;/p&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 11:15:56 +0100</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/03/29/hello-world/</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/03/29/hello-world/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 28 Mar 2015 10:15:56 +0000</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/03/28/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/03/28/welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

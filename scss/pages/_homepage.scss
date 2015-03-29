@@ -1,0 +1,45 @@
+.posts {
+  margin-bottom: 40px;
+
+  li {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border: none;
+      padding-bottom: 0px;
+    }
+  }
+
+  .post-link {
+    font-family: $sans-serif;
+    font-size: em(16);
+    text-transform: uppercase;
+  }
+
+  .excerpt {
+    margin: 20px 0;
+    font-size: em(14);
+  }
+
+  .post-date {
+    font-size: em(13);
+    font-style: italic;
+    color: lighten($body-colour, 35%);
+  }
+
+  @include media($tablet) {
+    .post-link {
+      font-size: em(22);
+    }
+
+    .excerpt {
+      font-size: em(18);
+    }
+
+    .post-date {
+      font-size: em(14);
+    }
+  }
+}
