@@ -1,5 +1,18 @@
+.main-content {
+  @include span-columns(12);
+  margin-bottom: 22px;
+  border-bottom: 1px solid #eee;
+
+  @include media($desktop) {
+    @include span-columns(8);
+    float: right;
+    border: none;
+    margin-bottom: 0;
+  }
+}
+
 .posts {
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
 
   li {
     padding-bottom: 30px;
@@ -14,8 +27,8 @@
 
   .post-link {
     font-family: $sans-serif;
-    font-size: em(16);
-    text-transform: uppercase;
+    font-size: em(18);
+    // text-transform: uppercase;
   }
 
   .excerpt {
@@ -31,7 +44,7 @@
 
   @include media($tablet) {
     .post-link {
-      font-size: em(22);
+      font-size: em(28);
     }
 
     .excerpt {
@@ -41,5 +54,10 @@
     .post-date {
       font-size: em(14);
     }
+  }
+
+  @include media($desktop) {
+    border-left: 1px solid #eee;
+    padding-left: 25px;
   }
 }

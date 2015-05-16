@@ -2,12 +2,11 @@
 layout: post
 title:  "Hello World!"
 date:   2015-03-29 10:15:56
-categories: jekyll update
+categories: general life
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, aliquam inventore dolorem eligendi velit, sed corporis, voluptatem molestiae debitis eius ea cum asperiores officia animi maxime. Labore, nisi porro! Facere?
+With new years just around the corner, I’m setting myself a small goal for the year 2015. I’ll start writing again. Yep, that’s right. Some of you know (yes you!) that I tried this a several time and it just fade away every time but there’s no harm in trying again for the 400th (whoa, maybe like 4th) time, no?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique qui aperiam doloribus esse aliquid, fuga, repellendus ex consequatur error, aliquam provident commodi quas praesentium id quos nobis, sint dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sapiente nostrum officia. Quis, voluptates! Molestias incidunt debitis possimus laudantium, et quasi, ab enim, voluptas reprehenderit hic ea saepe quo velit.
+I’m not sure yet what I will write in here or what I will share, if I do share anything as you all know it will be related to my daily life as a UI Designer or a car addict. Maybe I’ll even let you in on the personal life huh? The point is to just write right? “Write right” hah… sounds funny.
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Well then… this should be fun. Peace ~

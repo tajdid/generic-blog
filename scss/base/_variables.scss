@@ -29,7 +29,7 @@ $em-colour: maps($colours, black);
 
 // DEAFAULT
 $hyperlink: maps($colours, black);
-$hyperlink-hover: maps($colours, blue);
+$hyperlink-hover: maps($colours, red);
 
 $selection-colour: maps($colours, white);
 $selection-background: maps($colours, black);
@@ -42,7 +42,7 @@ $body-colour: maps($colours, black);
 $body-background: #fff;
 $body-font: 1em/1.6 400 $georgia;
 $font-size: em(22);
-$line-height: 1.6;
+$line-height: 1.5;
 
 
 // LOGO COLOUR

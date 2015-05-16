@@ -1,7 +1,9 @@
-@include web-fonts(("Montserrat": ("700")));
+// @include web-fonts(("Montserrat": ("700")));
+
+@include web-fonts(("Open Sans": ("400", "400 italic", "700")));
 @include web-fonts(("Neuton": ("400", "400 italic", "700")));
 
-$sans-serif: 'Montserrat', $helvetica;
+$sans-serif: 'Open Sans', $helvetica;
 $serif: 'Neuton', $georgia;
 
 @font-face {

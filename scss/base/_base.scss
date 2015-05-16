@@ -29,11 +29,12 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-serif;
-  text-transform: uppercase;
+  font-weight: 700;
+  // text-transform: uppercase;
 }
 
 h1 {
-  font-size: em(16);
+  font-size: em(18);
   margin-bottom: 20px;
 }
 
@@ -44,7 +45,19 @@ p {
 
 @include media($tablet) {
   h1 {
-    font-size: em(22);
+    font-size: em(28);
+  }
+
+  h2 {
+    font-size: em(24);
+  }
+
+  h3 {
+    font-size: em(20);
+  }
+
+  h3 {
+    font-size: em(18);
   }
 
   p {
@@ -63,7 +76,8 @@ p {
  }
 
 .container {
-  @include outer-container($local-max-width: 800px);
+  @include outer-container($local-max-width: 1024px);
+  @include clearfix;
   overflow: hidden;
   padding: 0 1em;
 }

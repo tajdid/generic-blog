@@ -5,9 +5,41 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Mar 2015 13:03:12 +0100</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2015 13:03:12 +0100</lastBuildDate>
+    <pubDate>Sat, 16 May 2015 21:09:00 +0100</pubDate>
+    <lastBuildDate>Sat, 16 May 2015 21:09:00 +0100</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
+    
+      <item>
+        <title>Comfort Zones</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, aliquam inventore dolorem eligendi velit, sed corporis, voluptatem molestiae debitis eius ea cum asperiores officia animi maxime. Labore, nisi porro! Facere?&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-one&quot;&gt;Heading One&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-two&quot;&gt;Heading Two&lt;/h2&gt;
+
+&lt;h3 id=&quot;heading-three&quot;&gt;Heading Three&lt;/h3&gt;
+
+&lt;h4 id=&quot;heading-four&quot;&gt;Heading Four&lt;/h4&gt;
+
+&lt;h5 id=&quot;heading-five&quot;&gt;Heading Five&lt;/h5&gt;
+
+&lt;h6 id=&quot;heading-six&quot;&gt;Heading Six&lt;/h6&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique qui aperiam doloribus esse aliquid, fuga, repellendus ex consequatur error, aliquam provident commodi quas praesentium id quos nobis, sint dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sapiente nostrum officia. Quis, voluptates! Molestias incidunt debitis possimus laudantium, et quasi, ab enim, voluptas reprehenderit hic ea saepe quo velit.&lt;/p&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 16:15:56 +0100</pubDate>
+        <link>http://yourdomain.com/general/design/2015/03/29/comfort-zones/</link>
+        <guid isPermaLink="true">http://yourdomain.com/general/design/2015/03/29/comfort-zones/</guid>
+        
+        
+        <category>general</category>
+        
+        <category>design</category>
+        
+      </item>
     
       <item>
         <title>Privacy and Design</title>
@@ -31,21 +63,56 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
     
       <item>
         <title>Hello World!</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, aliquam inventore dolorem eligendi velit, sed corporis, voluptatem molestiae debitis eius ea cum asperiores officia animi maxime. Labore, nisi porro! Facere?&lt;/p&gt;
+        <description>&lt;p&gt;With new years just around the corner, I’m setting myself a small goal for the year 2015. I’ll start writing again. Yep, that’s right. Some of you know (yes you!) that I tried this a several time and it just fade away every time but there’s no harm in trying again for the 400th (whoa, maybe like 4th) time, no?&lt;/p&gt;
+
+&lt;p&gt;I’m not sure yet what I will write in here or what I will share, if I do share anything as you all know it will be related to my daily life as a UI Designer or a car addict. Maybe I’ll even let you in on the personal life huh? The point is to just write right? “Write right” hah… sounds funny.&lt;/p&gt;
+
+&lt;p&gt;Well then… this should be fun. Peace ~&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 11:15:56 +0100</pubDate>
+        <link>http://yourdomain.com/general/life/2015/03/29/hello-world/</link>
+        <guid isPermaLink="true">http://yourdomain.com/general/life/2015/03/29/hello-world/</guid>
+        
+        
+        <category>general</category>
+        
+        <category>life</category>
+        
+      </item>
+    
+      <item>
+        <title>Comfort Zones</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;layout: post
+title:  &amp;ldquo;Comfort Zones&amp;rdquo;
+date:   2015-03-29 15:15:56&lt;/p&gt;
+
+&lt;h2&gt;categories: general design&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, aliquam inventore dolorem eligendi velit, sed corporis, voluptatem molestiae debitis eius ea cum asperiores officia animi maxime. Labore, nisi porro! Facere?&lt;/p&gt;
+
+&lt;h1&gt;Heading One&lt;/h1&gt;
+
+&lt;h2&gt;Heading Two&lt;/h2&gt;
+
+&lt;h3&gt;Heading Three&lt;/h3&gt;
+
+&lt;h4&gt;Heading Four&lt;/h4&gt;
+
+&lt;h5&gt;Heading Five&lt;/h5&gt;
+
+&lt;h6&gt;Heading Six&lt;/h6&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique qui aperiam doloribus esse aliquid, fuga, repellendus ex consequatur error, aliquam provident commodi quas praesentium id quos nobis, sint dignissimos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sapiente nostrum officia. Quis, voluptates! Molestias incidunt debitis possimus laudantium, et quasi, ab enim, voluptas reprehenderit hic ea saepe quo velit.&lt;/p&gt;
 
-&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 29 Mar 2015 11:15:56 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/03/29/hello-world/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/03/29/hello-world/</guid>
+        <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/29/comfort-zones/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/29/comfort-zones/</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     

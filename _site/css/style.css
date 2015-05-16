@@ -3,7 +3,7 @@
  * http://neat.bourbon.io
  * Copyright 2012-2014 thoughtbot, inc.
  * MIT License */
-@import url("//fonts.googleapis.com/css?family=Montserrat%3A700");
+@import url("//fonts.googleapis.com/css?family=Open Sans%3A400%2C400italic%2C700");
 @import url("//fonts.googleapis.com/css?family=Neuton%3A400%2C400italic%2C700");
 html {
   -webkit-box-sizing: border-box;
@@ -235,7 +235,7 @@ body {
   background: white;
   font-family: "Neuton", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 1.375em;
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
@@ -244,14 +244,14 @@ a {
   color: #111111;
   text-decoration: none; }
   a:hover {
-    color: #2196f3; }
+    color: #f44336; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 700; }
 
 h1 {
-  font-size: 1em;
+  font-size: 1.125em;
   margin-bottom: 20px; }
 
 p {
@@ -260,7 +260,16 @@ p {
 
 @media screen and (min-width: 720px) {
   h1 {
-    font-size: 1.375em; }
+    font-size: 1.75em; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  h3 {
+    font-size: 1.25em; }
+
+  h3 {
+    font-size: 1.125em; }
 
   p {
     font-size: 1.125em; } }
@@ -273,7 +282,7 @@ p {
   background: #111111; }
 
 .container {
-  max-width: 800px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -282,9 +291,15 @@ p {
     content: "";
     display: table;
     clear: both; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .main-header {
-  margin: 30px 0; }
+  padding-bottom: 25px;
+  margin: 25px 0;
+  border-bottom: 1px solid #eee; }
   .main-header:after {
     content: "";
     display: table;
@@ -297,7 +312,7 @@ p {
     float: left; }
   .main-header #logo .logo {
     display: block;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 1em;
     font-weight: 700;
     margin: 0;
@@ -323,7 +338,7 @@ p {
           float: left; }
         .main-header #logo .logo {
           display: block;
-          font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+          font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
           font-size: 1em;
           font-weight: 700;
           margin: 0;
@@ -352,10 +367,10 @@ p {
           margin: 0 0 0 30px;
           font-size: 0.9375em;
           padding-bottom: 0px;
-          border-bottom: 2px solid rgba(33, 150, 243, 0); }
+          border-bottom: 2px solid rgba(244, 67, 54, 0); }
           .main-header nav .page-link:hover {
             padding-bottom: 2px;
-            border-bottom: 2px solid #2196f3; } }
+            border-bottom: 2px solid #f44336; } }
 
 .main-nav {
   float: left;
@@ -454,40 +469,76 @@ p {
       .page-title p {
         font-size: 1.2em; } }
 
-footer {
-  border-top: 1px solid #eee;
-  padding: 40px 0;
-  font-size: 0.9em;
-  text-align: center; }
-  @media screen and (min-width: 60em) {
-    footer {
-      font-size: 1em;
-      text-align: left; } }
+.sidebar h3 {
+  font-size: 0.875em;
+  margin-bottom: 10px; }
+.sidebar p {
+  font-size: 0.875em; }
+@media screen and (min-width: 60em) {
+  .sidebar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    padding-right: 15px;
+    float: left; }
+    .sidebar:last-child {
+      margin-right: 0; }
+    .sidebar .side-box {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 20px; } }
 
-.posts {
-  margin-bottom: 40px; }
-  .posts li {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #eee; }
-    .posts li:last-child {
+.footer {
+  font-size: 0.8125em;
+  border-top: 1px solid #eee;
+  padding-top: 30px; }
+
+.main-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #eee; }
+  .main-content:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 60em) {
+    .main-content {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      float: right;
       border: none;
-      padding-bottom: 0px; }
+      margin-bottom: 0; }
+      .main-content:last-child {
+        margin-right: 0; } }
+
+.posts li {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee; }
+  .posts li:last-child {
+    border: none;
+    padding-bottom: 0px; }
+.posts .post-link {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.125em; }
+.posts .excerpt {
+  margin: 20px 0;
+  font-size: 0.875em; }
+.posts .post-date {
+  font-size: 0.8125em;
+  font-style: italic;
+  color: #6a6a6a; }
+@media screen and (min-width: 720px) {
   .posts .post-link {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 1em;
-    text-transform: uppercase; }
+    font-size: 1.75em; }
   .posts .excerpt {
-    margin: 20px 0;
-    font-size: 0.875em; }
+    font-size: 1.125em; }
   .posts .post-date {
-    font-size: 0.8125em;
-    font-style: italic;
-    color: #6a6a6a; }
-  @media screen and (min-width: 720px) {
-    .posts .post-link {
-      font-size: 1.375em; }
-    .posts .excerpt {
-      font-size: 1.125em; }
-    .posts .post-date {
-      font-size: 0.875em; } }
+    font-size: 0.875em; } }
+@media screen and (min-width: 60em) {
+  .posts {
+    border-left: 1px solid #eee;
+    padding-left: 25px; } }
